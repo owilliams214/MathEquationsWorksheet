@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Equations60
+build_property.RootNamespace = Equations60
+build_property.ProjectDir = /Users/owilliams/Projects/Equations60/Equations60/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/owilliams/Projects/Equations60/Equations60
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/GeneratedPage/Equations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJhdGVkUGFnZS9FcXVhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/GeneratedPage/Equations100.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJhdGVkUGFnZS9FcXVhdGlvbnMxMDAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/GeneratedPage/Equations25.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJhdGVkUGFnZS9FcXVhdGlvbnMyNS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/GeneratedPage/Equations50.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJhdGVkUGFnZS9FcXVhdGlvbnM1MC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/GeneratedPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJhdGVkUGFnZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/TestPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVzdFBhZ2UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/owilliams/Projects/Equations60/Equations60/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jcyd8ybf9f

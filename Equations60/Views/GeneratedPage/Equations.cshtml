@@ -1,0 +1,109 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<EquationClass>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="site.css">
+
+</head>
+
+<style>
+
+    td {
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+
+    
+
+
+</style>
+
+
+
+<script type="text/javascript">$(document).ready(function () {
+        $('input[type="checkbox"]').click(function () {
+            var inputValue = $(this).attr("value");
+            $("." + inputValue).toggle();
+        });
+
+        
+
+    });</script>
+
+
+
+@{ int num = 0;
+    int rows = 0, columns = 0;
+    int count = Model.Count();
+    if (count == 25)
+    {
+        rows = columns = 5;
+    }
+    else if (count == 50)
+    {
+        rows = 10;
+        columns = 5;
+    }
+    else if (count == 100)
+    {
+        rows = columns = 10;
+    }
+
+
+
+
+    if (count != 0)
+    {
+
+        <div class='no-print'>
+        <label>
+            <input type="checkbox" name="includeAnswers"
+                   value="eqAnswer"> Include Answers
+        </label>
+        </div>
+
+        <table style="width: 950px; height: 700px"> 
+
+
+
+            @for (int index1 = 0; index1 < rows; index1++)
+            {
+                <tr>
+
+                    @for (int index2 = 0; index2 < columns; index2++)
+
+
+                    {
+
+
+                        <td>
+
+                            <p class=" print">
+                                <pre>@Model[num].first.ToString().PadLeft(4)<br /></pre>
+                                <pre>@Model[num].symbol.ToString().PadRight(2)@Model[num].second.ToString().PadLeft(2)<br /></pre>
+                                ------ <br />
+                                <div style=" display: none; " class="eqAnswer selectt">
+                                    <pre>@Model[num].answer.ToString().PadLeft(4)</pre>
+                                </div>
+                            </p>
+                        </td>
+                        num++;
+
+
+                    }
+                </tr>
+            }
+        </table>
+    }
+}
+
+
+

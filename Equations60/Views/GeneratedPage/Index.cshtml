@@ -1,0 +1,68 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{}
+
+
+
+@using (Html.BeginForm("formEquations", "GeneratedPage", FormMethod.Post))
+{
+<div>
+
+    <p> Fill out the form to generate a sheet of math equations. </p>
+
+    <label>Number of Equations</label>
+    <br />
+    <label> 25 </label>
+    <input type="radio" name="number" value="25" checked/>
+    <label> 50 </label>
+
+    <input type="radio" name="number" value="50" />
+    <label> 100 </label>
+
+    <input type="radio" name="number" value="100" />
+
+    <br />
+
+    <label>Symbol</label>
+    <br />
+    <label> + </label>
+    <input type="radio" name="symbol" value="1" checked/>
+    <label> - </label>
+
+    <input type="radio" name="symbol" value="2" /> <div style="display"> </div>
+    <label> x </label>
+
+    <input type="radio" name="symbol" value="3" />
+
+    <label> / </label>
+
+    <input type="radio" name="symbol" value="4" />
+
+    <br />
+
+    <label>Maximum Number</label>
+    
+
+    <input type="number" name="maxNum" min="10" max="50" value="10"/> <label>*Default value is 10. Value must be between 10 and 50.</label>
+
+    <br />
+    <label> Include 0 </label>
+
+    <input type="checkbox" name="includeZero" value="true" />
+
+
+
+    <input type="submit" value="Create" />
+
+
+
+</div>
+
+<div>
+
+
+
+</div>
+
+}
