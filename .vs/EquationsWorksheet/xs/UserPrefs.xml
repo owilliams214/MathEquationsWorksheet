@@ -1,29 +1,30 @@
 ﻿<Properties StartupConfiguration="{4964F9FA-3BC6-430D-89A9-6FF34E08BF12}|Default">
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.EquationsWorksheet PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Equations60/Views/GeneratedPage/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Equations60/Controllers/GeneratedPageController.cs">
     <Files>
-      <File FileName="Equations60/Views/GeneratedPage/FormEquations.cshtml" Line="21" Column="22" />
-      <File FileName="Equations60/Controllers/GeneratedPageController.cs" Line="125" Column="42" />
-      <File FileName="Equations60/Views/GeneratedPage/Equations50.cshtml" Line="16" Column="22" />
-      <File FileName="Equations60/Views/GeneratedPage/Equations25.cshtml" Line="19" Column="22" />
-      <File FileName="Equations60/Views/GeneratedPage/Equations100.cshtml" Line="20" Column="22" />
-      <File FileName="Equations60/Program.cs" Line="27" Column="1" />
-      <File FileName="Equations60/Models/EquationClass.cs" Line="11" Column="27" />
-      <File FileName="Equations60/wwwroot/css/site.css" Line="24" Column="2" />
-      <File FileName="Equations60/Views/GeneratedPage/Index.cshtml" Line="12" Column="64" />
+      <File FileName="Equations60/Controllers/GeneratedPageController.cs" Line="131" Column="10" />
       <File FileName="Equations60/Views/Shared/_Layout.cshtml" Line="6" Column="37" />
-      <File FileName="Equations60/Views/Home/Index.cshtml" Line="11" Column="109" />
+      <File FileName="Equations60/Views/Home/Index.cshtml" Line="17" Column="130" />
+      <File FileName="Equations60/Controllers/HomeController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EquationsWorksheet" expanded="True" selected="True">
-            <Node name="Equations60" expanded="True">
+          <Node name="EquationsWorksheet" expanded="True">
+            <Node name="EquationsWorksheet" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="GeneratedPage" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -33,6 +34,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

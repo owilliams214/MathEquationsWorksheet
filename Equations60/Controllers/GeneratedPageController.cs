@@ -18,30 +18,9 @@ namespace EquationsWorksheet.Controllers
             return View();
         }
 
-        List<EquationClass> genEquations(int max)
-        {
-            List<EquationClass> equations = new List<EquationClass>();
-            Random random = new Random();
-
-            for (int index = 0; index < max; index++)
-            {
-                EquationClass row = new EquationClass();
-                row.first = random.Next(1, 15);
-                row.second = random.Next(1, 15);
-                row.answer = row.first + row.second;
-                row.symbol = '+';
-                equations.Add(row);
-
-            }
-
-            return equations;
-
-        }
-
-        
         
 
-
+        
         public List<EquationClass> addEquations(int numOfEqua, int minNum, int maxNum)
         {
             List<EquationClass> equations = new List<EquationClass>();
@@ -60,6 +39,7 @@ namespace EquationsWorksheet.Controllers
 
             return equations;
         }
+
         public List<EquationClass> subEquations(int numOfEqua, int minNum, int maxNum, bool negatives)
         {
             List<EquationClass> equations = new List<EquationClass>();
@@ -80,6 +60,7 @@ namespace EquationsWorksheet.Controllers
 
             return equations;
         }
+
         public List<EquationClass> multEquations(int numOfEqua, int minNum, int maxNum)
         {
             List<EquationClass> equations = new List<EquationClass>();
@@ -98,6 +79,7 @@ namespace EquationsWorksheet.Controllers
 
             return equations;
         }
+
         public List<EquationClass> divEquations(int numOfEqua, int minNum, int maxNum)
         {
 
